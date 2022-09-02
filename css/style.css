@@ -1,0 +1,121 @@
+.left{
+    /* border:2px solid red; */
+    display: inline-block;
+    position: absolute;
+   left:34px;
+   top:20px;
+   text-align: center;
+}
+.right{
+   /* border:2px solid green; */
+   display:inline-block;
+   position: absolute;
+   right:34px;
+   top:20px;
+}
+.mid{
+   /* border:2px solid yellow; */
+   display:block;
+   margin:28px auto;
+   width:30%;
+   
+}
+.navbar{
+   display:inline-block;
+
+}
+.navbar li{
+   display:inline-block;
+   font-size: 15px;
+   
+}
+.navbar li a{
+   color:white;
+   text-decoration: none;
+   padding:8px 8px;
+}
+.navbar li a:hover{
+   color:gold;
+   text-decoration: underline;
+} 
+.navbar li a.active{
+   color: rgba(255, 60, 0, 0.799);
+   text-decoration: underline;
+}
+.navbar li a.active:hover{
+   color: gold;
+   text-decoration: underline;
+}
+
+.left img{
+   width:80px;
+   filter:invert(100%);
+}
+.left div{
+   text-align: center;
+   font-size: 15px;
+   line-height: 5px;
+}
+.btn{
+margin: 15px 5px;
+color: white;
+background-color: black;
+padding:3px 5px;
+border:2px solid grey;
+border-radius: 10px;
+font-size:15px;
+cursor: pointer;
+font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.btn:hover{
+background-color: grey;
+color:gold;
+}
+.container{
+border:2px solid white;
+margin:55px 80px;
+padding: 35px;
+width:33%;
+border-radius: 28px;
+float: right;
+}
+.formg input{
+font-size: 15px;
+text-align: center;
+display: block;
+width:400px;
+padding:4px;
+border:2px solid black;
+margin: 3px auto;
+border-radius: 10px;
+font-family: 'Baloo Bhaijaan 2';
+
+}
+.container h1{
+text-align: center;
+}
+.container button{
+display: block;
+width:23%;
+margin: 20px auto;
+}
+#btn{
+width: 70px;
+}
+.foot{
+position: absolute;
+top:  600px;
+width: 1440px;
+display: block;
+margin: 75px auto;
+/* border: 2px solid red; */
+}
+.foot p{
+float: right;
+display: inline;
+}
+.foot b{
+position: absolute;
+right:270px;
+
+}
